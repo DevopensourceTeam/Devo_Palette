@@ -1,3 +1,9 @@
+# Introduction
+
+This is a color palette picker we made in Electron.
+
+You can see a preview
+![ScreenShot]()
 # How to run?
 
 ## Install software dependencies
