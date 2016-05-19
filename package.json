@@ -1,5 +1,11 @@
 {
-  "name":    "color_picker",
+  "name": "color_picker",
   "version": "0.0.1",
-  "main":    "main.js"
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1"
+  }
 }
