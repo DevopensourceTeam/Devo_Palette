@@ -16,3 +16,8 @@ Run in Terminal: `npm install -g electron`
 
 ## Run
 - 1. Inside the project folder run: `electron .`
+
+
+# Special thanks
+
+We want to thank so much to http://codepen.io/cmegown/pen/VaMzQq
