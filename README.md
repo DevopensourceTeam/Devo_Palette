@@ -23,6 +23,8 @@ Run in Terminal: `npm install -g electron`
 ## Run
 - 1. Inside the project folder run: `electron .`
 
+# Author
+
 Powered by [Devopensource](http://devopensource.com)
 
 # Special thanks
