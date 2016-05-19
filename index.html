@@ -6,28 +6,39 @@
   <script src="clipboard.min.js"></script>
 </head>
 <body>
-      <div class="material-color-picker">
-          <div class="material-color-picker__left-panel">
-              <ol class="color-selector" data-bind="foreach: materialColors">
-                  <li>
-                      <input name="material-color" type="radio" data-bind="attr: { id: 'materialColor' + $index() }, checked: selectedColor, value: color" >
-                      <label data-bind="attr: { for: 'materialColor' + $index(), title: color }, style: { 'color': $data.variations[4].hex }"></label>
-                  </li>
-              </ol>
-          </div>
-          <div class="material-color-picker__right-panel" data-bind="foreach: materialColors">
-              <div class="color-palette-wrapper" data-bind="css: { 'js-active': selectedColor() === color }">
-                  <h2 class="color-palette-header" data-bind="text: color"></h2>
-                  <ol class="color-palette" data-bind="foreach: variations">
-                      <li id="clipboardItem" class="color-palette__item" data-bind="attr: { 'data-clipboard-text': hex }, style: { 'background-color': hex }">
-                          <span data-bind="text: weight"></span>
-                          <span data-bind="text: hex"></span>
-                          <span class="copied-indicator" data-bind="css: { 'js-copied': copiedHex() === hex }">Color copied!</span>
-                      </li>
-                  </ol>
-              </div>
-          </div>
+  <div id="title-bar">
+    <div id="title">Devo Palette</div>
+    <!--
+    <div id="title-bar-btns">
+      <button id="min-btn">-</button>
+      <button id="max-btn">+</button>
+      <button id="close-btn">x</button>
+    </div>
+    -->
+  </div>
+  <div class="material-color-picker">
+    <div class="material-color-picker__left-panel">
+      <ol class="color-selector" data-bind="foreach: materialColors">
+        <li>
+          <input name="material-color" type="radio" data-bind="attr: { id: 'materialColor' + $index() }, checked: selectedColor, value: color" >
+          <label data-bind="attr: { for: 'materialColor' + $index(), title: color }, style: { 'color': $data.variations[4].hex }"></label>
+        </li>
+      </ol>
+    </div>
+    <div class="material-color-picker__right-panel" data-bind="foreach: materialColors">
+      <div class="color-palette-wrapper" data-bind="css: { 'js-active': selectedColor() === color }">
+        <h2 class="color-palette-header" data-bind="text: color"></h2>
+        <ol class="color-palette" data-bind="foreach: variations">
+          <li id="clipboardItem" class="color-palette__item" data-bind="attr: { 'data-clipboard-text': hex }, style: { 'background-color': hex }">
+            <span data-bind="text: weight"></span>
+            <span data-bind="text: hex"></span>
+            <span class="copied-indicator" data-bind="css: { 'js-copied': copiedHex() === hex }">Color copied!</span>
+          </li>
+        </ol>
       </div>
+    </div>
+  </div>
+  <div id="footer">Current version v1.0</div>
   <script src="script.js"></script>
 </body>
 </html>

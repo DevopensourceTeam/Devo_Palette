@@ -9,10 +9,43 @@ img {
   max-width: 100%;
 }
 
-body, html {
+body {
+  margin: 0px;
+}
+
+html {
   background-color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+
+#footer {
+  text-align: center;
+  color: #9E9E9E;
+}
+
+#title-bar {
+  text-align: center;
+ -webkit-app-region: drag;
+ height: 24px;
+ background-color: white;
+ padding: none;
+ margin: 0px;
+}
+
+#title {
+ top: 0px;
+ left: 6px;
+ text-align: center;
+ color: #0277BD;
+ padding: 10px;
+}
+
+#title-bar-btns {
+ -webkit-app-region: no-drag;
+ position: fixed;
+ top: 0px;
+ right: 6px;
 }
 
 .material-color-picker {
