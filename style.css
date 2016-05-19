@@ -5,23 +5,14 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 img {
   max-width: 100%;
 }
 
-html {
-  background-color: #b0bec5;
+body, html {
+  background-color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-}
-
-.container {
-  padding: 1em;
 }
 
 .material-color-picker {
@@ -29,13 +20,8 @@ html {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 32em;
-  margin: 0 auto;
-  background-color: white;
-  border: 1px solid #78909c;
-  border-radius: 0.5em;
-  box-shadow: 0 1em 8em rgba(0, 0, 0, 0.35);
 }
+
 .material-color-picker__left-panel {
   z-index: 1;
 }
