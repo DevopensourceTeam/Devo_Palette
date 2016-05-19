@@ -6,6 +6,11 @@ You can see a preview
 ![ScreenShot](https://raw.githubusercontent.com/DevopensourceTeam/Devo_Palette/master/images/screenshot.png)
 # How to run?
 
+## Install dependencies for Windows and release binary
+You need to have installed this runtime libraries for the electron version 1.1.0:
+
+https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
 ## Install software dependencies
 
 - Latest version of `NPM`

@@ -14,7 +14,7 @@ let appIcon;
 function createWindow() {
   //appIcon = new Tray('images/icon.png');
   // Create the browser window.
-  win = new BrowserWindow({width: 800, height: 600, frame: false, icon: 'images/icon'});
+  win = new BrowserWindow({width: 800, height: 600, frame: false, icon: 'images/icon.png'});
 
   // and load the index.html of the app.
   win.loadURL(`file://${__dirname}/index.html`);
