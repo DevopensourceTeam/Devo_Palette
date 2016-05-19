@@ -15,7 +15,7 @@ Run in Terminal: `npm install -g npm`
 Run in Terminal: `npm install -g electron`
 
 ## Clone project
-- git clone git@git.devoffice.com:electron/color_picker.git
+- git clone git@github.com:DevopensourceTeam/Devo_Palette.git
 
 ## Install module dependencies
 - 1. Inside the project folder run: `npm install`
@@ -23,6 +23,7 @@ Run in Terminal: `npm install -g electron`
 ## Run
 - 1. Inside the project folder run: `electron .`
 
+Powered by [Devopensource](http://devopensource.com)
 
 # Special thanks
 
