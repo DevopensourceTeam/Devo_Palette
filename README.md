@@ -3,7 +3,7 @@
 This is a color palette picker we made in Electron.
 
 You can see a preview
-![ScreenShot](https://raw.githubusercontent.com/DevopensourceTeam/Devo_Palette/master/screenshot.png)
+![ScreenShot](https://raw.githubusercontent.com/DevopensourceTeam/Devo_Palette/master/images/screenshot.png)
 # How to run?
 
 ## Install software dependencies
